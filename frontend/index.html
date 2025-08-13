@@ -14,24 +14,24 @@
 
     <main>
         <section class="paste-url-form">
-            <form action="" method="post" id="paste-url-form">
-                <input type="url" name="playlist-url" id="playlist-url">
+            <form action="" id="paste-new-url-form">
+                <label for="playlist-url">URL da playlist do Spotify</label>
+                <input type="url" name="playlist-url" id="playlist-url" placeholder="https://open.spotify.com/playlist/11111111" required>
                 <button type="submit">Converter</button>
             </form>
         </section>
 
-        <section>
-            <div>
-                
+        <section class="converted-playlist">
+            <div class="display-new-playlist">
+                <p class="placeholder-text">O link da playlist aparecerá aqui</p>
             </div>
-            <form action="" method="get">
-                
-            </form>
         </section>
     </main>
 
     <footer>
-        <p>Esta é uma iniciativa Open Source feita por um estudante, você pode contribuir acessando o <a href="">repositorio do GitHub.</a></p>
+        <p>Esta é uma iniciativa Open Source feita por um estudante, você pode contribuir acessando o <a href="https://github.com/AlexReisC/PlaylistSync">repositorio do GitHub.</a></p>
     </footer>
+
+    <script src="scripts.js"></script>
 </body>
 </html>
